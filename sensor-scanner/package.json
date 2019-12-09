@@ -1,0 +1,21 @@
+{
+	"name": "thingy",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"dragonchain-sdk": "^4.2.0",
+		"noble": "noble/noble#pull/907/head",
+		"noble-device": "^1.4.1",
+		"xpc-connection": "sandeepmistry/node-xpc-connection#pull/26/head"
+	},
+	"resolutions": {
+		"noble": "noble/noble#pull/907/head",
+		"xpc-connection": "sandeepmistry/node-xpc-connection#pull/26/head"
+	}
+}
